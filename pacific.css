@@ -1,8 +1,9 @@
 body {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #666666;
     font-family: Arial, Helvetica, sans-serif
 }
+
 header {
     background-color: #000033;
     background-image: url(images/sunset.jpg);
@@ -10,34 +11,55 @@ header {
     background-repeat: no-repeat;
     line-height: 400%;
     text-indent: 1em;
-    color: #ffffff;
+    color: #FFFFFF;
 }
+
 h1 {
     margin-bottom: 0px;
 }
+
 nav {
-    background-color: #90c7e3;
-    color: #000033;
+    background-color: #90C7E3;
     font-weight: bold;
 }
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2, h3 {
+    color: #000033;
+}
+
 footer {
     font-size: 75%;
 }
+
 table, td, th {
     border:2px solid #3399CC;
     border-collapse: collapse;
 }
+
 td, th {
     padding:0.5em;
 }
+
 td {
     text-align: center;
 }
+
 tbody > tr:nth-of-type(odd) {
-    background-color: #8cdeff;
+    background-color: #8CDEFF;
 }
+label, textarea {
+    display: block;
+}
+input, textarea {
+    margin-bottom: 1.5em;
+}
+
 .resort {
-    color: #5c7fa3;
+    color: #5C7FA3;
     font-weight: bold;
 }
 .left {
@@ -46,9 +68,5 @@ tbody > tr:nth-of-type(odd) {
 contact {
     font-size: 90%;
 }    
-h1, h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h2, h3 {
-    color: #000033;
-}
+
+
